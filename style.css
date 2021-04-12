@@ -1,0 +1,50 @@
+body{
+  margin: 0;
+  padding: 0;
+  background: radial-gradient( maroon, black);
+  background-size: cover;
+  width: auto;
+  height: 50rem;
+  background-repeat: no-repeat;
+  font-family: sans-serif;
+}
+.container{
+  width: 400px;
+  height: 450px;
+  background: rgba(128, 0, 0, 0.592);
+  top: 50%;
+  left: 50%;
+  position: absolute;
+  transform: translate(-50%, -50%);
+  box-sizing: border-box;
+  text-align: center;
+  border-radius: 30px;
+}
+.btn{
+  border: 1px solid white;
+  color: white;
+  background: rgb(62, 1, 1);
+  font-size: 30px;
+  width: 150px;
+  height: 40px;
+  border-radius: 20px;
+}
+.dr{
+  border: 1px solid white;
+  color: white;
+  background: rgb(62, 1, 1);
+  font-size: 30px;
+  width: 150px;
+  height: 40px;
+  text-align: center;
+}
+.result{
+  color: white;
+  background: rgba(0, 0, 0, 0.804);
+}
+.title{
+  color: maroon;
+  background: rgba(255, 255, 255, 0.804);
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
